@@ -10,10 +10,9 @@ namespace Ejercicio_Estetica
     class menu_inventario
     {
         private int opcion;
-        private List <Articulo> lista_articulos;
+        private List <Articulo> lista_articulos = new List<Articulo>();
         public void desplegar_menu()
         {
-            lista_articulos = new List<Articulo>();
             opcion = 0;
             while (opcion != 5)
             {
@@ -24,13 +23,10 @@ namespace Ejercicio_Estetica
                     Console.WriteLine("*****************");
                     Console.WriteLine("1.-Agregar\n2.-Listar\n3.-Eliminar\n4.-Buscar\n5.-Salir");
                     Console.WriteLine("*****************");
-                    Console.Write("ingrese una opcion: ");
+                    Console.Write("Ingrese una opcion valida: ");
                     opcion = Convert.ToInt32(Console.ReadLine());
-                    if (opcion < 1 || opcion > 5)
-                    {
-                        Console.WriteLine("Ingrese una opcion valiada 1-5");
-                    }
                     Console.Clear();
+
                 }
                 switch (opcion)
                 {
@@ -72,12 +68,12 @@ namespace Ejercicio_Estetica
                         break;
                        
                     case 4://Buscar
-                        Console.Write("Ingresa el codigo a buscar:");
+                        Console.Write("Ingresa el codigo a buscar: ");
                         int codigo_buscar = Convert.ToInt32(Console.ReadLine());
-
+                        Console.Clear();
                         foreach (var i in lista_articulos)
                         {
-                            if (i.Codigo == codigo_buscar)
+                             if (i.Codigo == codigo_buscar)
                             {
                                 Console.WriteLine("-----------------------------");
                                 Console.WriteLine("Codigo:"+ i.Codigo);
@@ -85,12 +81,18 @@ namespace Ejercicio_Estetica
                                 Console.WriteLine("Descripcion:"+ i.Descripcion);
                                 Console.WriteLine("Precio: $ "+ i.Precio);
                                 Console.WriteLine("-----------------------------");
-                                
+                                Console.WriteLine("Presione cualquier tecla para salir de buscar...");
+                                Console.ReadLine();
+                                Console.Clear();
                                 break;
+
                             }
-                            
                         }
-                        
+                            Console.WriteLine("No se encontro ningun articulo con el codigo ingresado");
+                            Console.WriteLine("Presione cualquier tecla para regresar al menu...");
+                            Console.ReadLine();
+                            Console.Clear();
+
                         break;
                     default://Salir
                        

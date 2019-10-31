@@ -29,9 +29,9 @@ namespace Ejercicio_Estetica
                     case 1:
                         inventario1.desplegar_menu();
                         value = 0;
-
                         break;
                     case 2:
+
                         break;
                     default:
                         break;
