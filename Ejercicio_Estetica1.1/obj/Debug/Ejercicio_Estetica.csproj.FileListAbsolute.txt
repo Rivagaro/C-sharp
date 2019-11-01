@@ -1,0 +1,6 @@
+C:\Users\Step\Desktop\C#\Ejercicio_Estetica\bin\Debug\Ejercicio_Estetica.exe.config
+C:\Users\Step\Desktop\C#\Ejercicio_Estetica\bin\Debug\Ejercicio_Estetica.exe
+C:\Users\Step\Desktop\C#\Ejercicio_Estetica\bin\Debug\Ejercicio_Estetica.pdb
+C:\Users\Step\Desktop\C#\Ejercicio_Estetica\obj\Debug\Ejercicio_Estetica.csprojAssemblyReference.cache
+C:\Users\Step\Desktop\C#\Ejercicio_Estetica\obj\Debug\Ejercicio_Estetica.exe
+C:\Users\Step\Desktop\C#\Ejercicio_Estetica\obj\Debug\Ejercicio_Estetica.pdb
