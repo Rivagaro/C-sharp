@@ -1,0 +1,7 @@
+C:\Users\Rick\source\repos\Ejercicio_Estetica\Ejercicio_Estetica\bin\Debug\Ejercicio_Estetica.exe.config
+C:\Users\Rick\source\repos\Ejercicio_Estetica\Ejercicio_Estetica\bin\Debug\Ejercicio_Estetica.exe
+C:\Users\Rick\source\repos\Ejercicio_Estetica\Ejercicio_Estetica\bin\Debug\Ejercicio_Estetica.pdb
+C:\Users\Rick\source\repos\Ejercicio_Estetica\Ejercicio_Estetica\obj\Debug\Ejercicio_Estetica.csprojAssemblyReference.cache
+C:\Users\Rick\source\repos\Ejercicio_Estetica\Ejercicio_Estetica\obj\Debug\Ejercicio_Estetica.csproj.CoreCompileInputs.cache
+C:\Users\Rick\source\repos\Ejercicio_Estetica\Ejercicio_Estetica\obj\Debug\Ejercicio_Estetica.exe
+C:\Users\Rick\source\repos\Ejercicio_Estetica\Ejercicio_Estetica\obj\Debug\Ejercicio_Estetica.pdb
